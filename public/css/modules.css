@@ -1,0 +1,37 @@
+.hero{
+  background: url('../images/sean.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ff6600;
+  filter: opacity(.50);
+  height: 75vh;
+  line-height: 75vh;
+}
+
+.hero div h1{
+  filter: opacity(.75);
+}
+
+.story{
+  background-color: #222222;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 1em;
+}
+.story h2{
+  color: #ff6600;
+  margin-bottom: 1em;
+}
+.story p {
+  line-height: 1.25em;
+  margin: auto;
+}
+.social{
+  margin: 1em auto ;
+}
+.social-link{
+  color: #fff;
+}
+.social-link:hover{
+  color: #ff6600;
+  transition: ease-in 250ms;
+}
