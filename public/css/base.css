@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: #111111;
   color: #fff;
@@ -8,12 +11,15 @@ body{
 /* HEADING'S */
 h1,h2,h3,h4{
   font-family: 'Montserrat', sans-serif;
+
 }
 h1{
   font-size: 2.5em;
+  color: #ff6600;
 }
 h2{
   font-size: 2em;
+  color: #ff6600;
 }
 h3{
   font-size: 1.75em;
@@ -21,7 +27,9 @@ h3{
 h4{
   font-size: 1.5em;
 }
-
+p{
+  font-size: 1.25em;
+}
 b{
   font-weight: 500;
 }
@@ -31,20 +39,21 @@ header{
   height: 75px;
   line-height: 75px;
 }
-header ul li{
+
+header a{
   display: inline-block;
   width: 25%;
-}
-header a{
   font-size: 1.5em;
   text-decoration: none;
   color: #fff;
 }
 
-header ul li:hover{
+header a:hover{
+  background-color: #fff;
   color: #222222;
   transition: ease-in 250ms;
 }
+
 
 /* MAIN */
 main{
@@ -53,7 +62,8 @@ main{
 }
 /* FOOTER */
 footer{
-  color: #444444;
+  background-color: #222222;
+  color: #555555;
   height: 75px;
   line-height: 75px;
 }
