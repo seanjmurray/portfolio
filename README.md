@@ -2,11 +2,12 @@
 
 
 [![HitCount](http://hits.dwyl.com/seanjmurray/portfolio.svg)](http://hits.dwyl.com/seanjmurray/portfolio)
-[![Version](https://img.shields.io/badge/version-0.1.0-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
+[![Version](https://img.shields.io/badge/version-0.2.0-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
 [![Build Status](https://travis-ci.com/seanjmurray/portfolio.svg?branch=master)](https://travis-ci.com/seanjmurray/portfolio)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
