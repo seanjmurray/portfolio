@@ -5,6 +5,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Projects from './components/projects';
 import Skills from './components/competencies';
+import Contact from './components/contact';
 import Footer from './components/footer';
 
 test('renders header', () => {
@@ -30,6 +31,11 @@ test('renders project', () => {
 test('renders skills', () => {
   const { getByText } = render(<Skills />);
   const linkElement = getByText(/MongoDB/i);
+  expect(linkElement).toBeInTheDocument();
+});
+test('renders contact', () => {
+  const { getByText } = render(<Contact />);
+  const linkElement = getByText(/ahold/i);
   expect(linkElement).toBeInTheDocument();
 });
 test('renders footer', () => {
