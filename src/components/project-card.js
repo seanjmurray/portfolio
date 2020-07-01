@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class ProjectCard extends Component{
-  render(){
+export default function ProjectCard(props){
     return (
       <div className="projectCard col-5">
-        <h4>{this.props.name}</h4>
-        <a href={this.props.link}>
-        <img className="cardImg" src={this.props.src} alt={this.props.name}></img>
+        <h4>{props.name}</h4>
+        <a href={props.link}>
+        <img className="cardImg" src={props.src} alt={props.name}></img>
         </a>
-        <p className="col-9">{this.props.desc}</p>
+        <p className="col-9">{props.desc}</p>
         <div className="social">
-        <a href={this.props.repo} className="social-link">
-          <i className="fab fa-github-square"></i>
+        <a href={props.repo} className="social-link">
+          <i className="fab fa-github-square fa-2x"></i>
           </a>
         </div>
       </div>
     )
   }
-}

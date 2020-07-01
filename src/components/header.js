@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
- export default class Header extends Component{
-  render(){
+ export default function Header(){
     return(
       <header>
         <a href="#story">My Story</a>
@@ -11,4 +10,3 @@ import React, { Component } from 'react';
       </header>
     )
   }
-}

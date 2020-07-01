@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class About extends Component{
-  render(){
+export default function About(){
     return(
       <section id="story" className="card">
         <h1>My Story</h1>
@@ -22,4 +21,3 @@ export default class About extends Component{
       </section>
     )
   }
-}

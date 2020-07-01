@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Showcase from './showcase';
 import ProjectCard from './project-card';
 
-export default class Projects extends Component{
-  render(){
+export default function Projects(){
     return(
       <section id="projects">
         <h1>Some of my work</h1>
@@ -47,4 +46,3 @@ export default class Projects extends Component{
       </section>
     )
   }
-}
