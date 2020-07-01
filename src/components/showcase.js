@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Showcase extends Component{
-  render(){
+export default function Showcase(props){
     return (
       <div className="card">
-        <h2>{this.props.name}</h2>
-        <a href={this.props.link}>
-        <img src={this.props.src} alt={this.props.name}></img>
+        <h2>{props.name}</h2>
+        <a href={props.link}>
+        <img src={props.src} alt={props.name}></img>
         </a>
         <h3>Details</h3>
-        <p className="col-9">{this.props.details}</p>
+        <p className="col-9">{props.details}</p>
         <div className="social">
-        <a href={this.props.repo} className="social-link">
+        <a href={props.repo} className="social-link">
           <i className="fab fa-github-square fa-2x"></i>
           </a>
         </div>
       </div>
     )
   }
-}

@@ -3,7 +3,6 @@
 
 [![HitCount](http://hits.dwyl.com/seanjmurray/portfolio.svg)](http://hits.dwyl.com/seanjmurray/portfolio)
 [![Version](https://img.shields.io/badge/version-0.1.0-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
-[![Known Vulnerabilities](https://snyk.io/test/github/seanjmurray/portfolio/badge.svg)](https://snyk.io/test/github/seanjmurray/portfolio)
 [![Build Status](https://travis-ci.com/seanjmurray/portfolio.svg?branch=master)](https://travis-ci.com/seanjmurray/portfolio)
 
 
@@ -24,7 +23,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -34,7 +32,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 

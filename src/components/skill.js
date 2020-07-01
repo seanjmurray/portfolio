@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class skill extends Component{
-  render(){
+export default function Skill(props){
     return(
       <div className="skillCard col-3">
-        <h4>{this.props.name}</h4>
+        <h4>{props.name}</h4>
         <div className="bar col-9">
-          <div id={this.props.name} className={this.props.width} >
-             {this.props.percent}
+          <div id={props.name} className={props.width} >
+             {props.percent}
           </div>
         </div>
       </div>
     )
   }
-}

@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Skill from './skill';
 
-export default class Skills extends Component{
-  render(){
+export default function Skills(){
     return(
       <section id="skills">
         <h1>What I bring to the table</h1>
@@ -21,4 +20,3 @@ export default class Skills extends Component{
       </section>
     )
   }
-}

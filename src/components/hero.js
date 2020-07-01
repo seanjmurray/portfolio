@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Hero extends Component {
-  render() {
+export default function Hero(){
     return (
       <section className="hero">
        
       </section>
     )
   }
-}
+
