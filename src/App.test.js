@@ -1,45 +1,39 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Header from './components/header';
-import Hero from './components/hero';
-import About from './components/about';
-import Projects from './components/projects';
-import Skills from './components/competencies';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import App from './app';
 
 test('renders header', () => {
-  render(<Header />);
+  render(<App />);
   const linkElement = document.getElementsByTagName('a')[3];
   expect(linkElement).toBeInTheDocument();
 });
 test('renders hero', () => {
-  render(<Hero />);
+  render(<App />);
   const linkElement = document.getElementsByClassName('hero')[0];
   expect(linkElement).toBeInTheDocument();
 });
 test('renders about', () => {
-  const { getByText } = render(<About />);
+  const { getByText } = render(<App />);
   const linkElement = getByText(/HAZMAT/i);
   expect(linkElement).toBeInTheDocument();
 });
 test('renders project', () => {
-  const { getByText } = render(<Projects />);
+  const { getByText } = render(<App />);
   const linkElement = getByText(/Salmon/i);
   expect(linkElement).toBeInTheDocument();
 });
 test('renders skills', () => {
-  const { getByText } = render(<Skills />);
-  const linkElement = getByText(/MongoDB/i);
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/Security/i);
   expect(linkElement).toBeInTheDocument();
 });
 test('renders contact', () => {
-  const { getByText } = render(<Contact />);
+  const { getByText } = render(<App />);
   const linkElement = getByText(/ahold/i);
   expect(linkElement).toBeInTheDocument();
 });
 test('renders footer', () => {
-  const { getByText } = render(<Footer />);
+  const { getByText } = render(<App />);
   const linkElement = getByText(/2020/i);
   expect(linkElement).toBeInTheDocument();
 });

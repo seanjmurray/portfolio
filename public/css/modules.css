@@ -114,15 +114,15 @@
 }
 /* EMAIL */
 .email{
-  background-color: #111111;
+  background-color: #fff;
   border-radius: .5em;
-  color: #fff;
+  color: #222222;
   font-size: 1.5em;
   text-decoration: none;
   padding: .50em 2em;
 }
 .email:hover{
-  background-color: #fff;
+  background-color: #ff6600;
   color: #222222;
   transition: ease-in 250ms;
 }
