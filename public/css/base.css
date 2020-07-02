@@ -58,7 +58,7 @@ header a:hover{
 /* MAIN */
 main{
   margin: auto;
-  width: 80%;
+  width: 95%;
 }
 /* FOOTER */
 footer{
@@ -74,4 +74,9 @@ footer a{
 }
 footer a:hover{
   color: #ff6600;
+}
+@media (min-width: 730px){
+  main{
+    width: 80%;
+  }
 }
