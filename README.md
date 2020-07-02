@@ -1,7 +1,7 @@
 # Welcome to my portfolio
 
 [![HitCount](http://hits.dwyl.com/seanjmurray/portfolio.svg)](http://hits.dwyl.com/seanjmurray/portfolio)
-[![Version](https://img.shields.io/badge/version-0.3.0-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
+[![Version](https://img.shields.io/badge/version-0.4.0-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
 [![Build Status](https://travis-ci.com/seanjmurray/portfolio.svg?branch=master)](https://travis-ci.com/seanjmurray/portfolio)
 
 
@@ -47,6 +47,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 ## Changelog
  - 2020-07-01 V 0.3 deployed all components moved to App component for rendering.
+ - 2020-07-01 V 0.4 Add mobile responsiveness to css.
 
 ## Credits
 
