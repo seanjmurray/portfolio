@@ -6,6 +6,13 @@ export default function Projects(){
     return(
       <section id="projects">
         <h1>Some of my work</h1>
+        <Showcase 
+        name="React Blog"
+        link="https://www.seanmurray.dev/"
+        src="images/react-blog.png"
+        details="This is a MERN stack app I built. I wanted to build a tool I could use to improve my technical writing, and to learn React. This was the end product. Development is still ongoing as I learn more and improve my skills."
+        repo="https://github.com/seanjmurray/react-blog"
+        />
         <Showcase
          name="Pitch Finder"
          link="https://pitch-finder.herokuapp.com/"
