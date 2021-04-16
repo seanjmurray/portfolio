@@ -1,8 +1,8 @@
 {
   "name": "sean-portfolio",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
-  "homepage": "https://www.seanjmurray.tech",
+  "homepage": "https://seanjmurray.github.io/portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
