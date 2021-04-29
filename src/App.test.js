@@ -34,6 +34,6 @@ test('renders contact', () => {
 });
 test('renders footer', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/2020/i);
+  const linkElement = getByText(/2021/i);
   expect(linkElement).toBeInTheDocument();
 });
