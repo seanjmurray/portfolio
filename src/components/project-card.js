@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ProjectCard(props){
+const ProjectCard = (props) => {
     return (
       <div className="projectCard col-5">
         <h4>{props.name}</h4>
@@ -16,3 +16,5 @@ export default function ProjectCard(props){
       </div>
     )
   }
+  export default ProjectCard
+  

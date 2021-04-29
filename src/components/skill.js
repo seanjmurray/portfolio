@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Skill(props){
+const Skill = (props) => {
     return(
       <div className="skillCard col-3">
         <h4>{props.name}</h4>
@@ -12,3 +12,4 @@ export default function Skill(props){
       </div>
     )
   }
+  export default Skill

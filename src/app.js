@@ -7,18 +7,19 @@ import Skills from './components/competencies';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
-export default function App(){
+const App = () =>  {
   return(
-  <section>
-    <Header />
-    <Hero />
-  <main>
-    <About />
-    <Projects />
-    <Skills />
-    <Contact />
-  </main>
-    <Footer />
-  </section>
-  )
+    <section>
+      <Header />
+      <Hero />
+    <main>
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
+      <Footer />
+    </section>
+    )
 }
+export default App;

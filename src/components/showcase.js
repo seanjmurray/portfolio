@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Showcase(props){
+const Showcase = (props) => {
     return (
       <div className="card">
         <h2>{props.name}</h2>
@@ -17,3 +17,4 @@ export default function Showcase(props){
       </div>
     )
   }
+export default Showcase

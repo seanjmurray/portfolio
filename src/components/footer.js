@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function Footer(){
+const Footer = () => {
     return(
       <footer>
-        <p> &copy; 2020 Sean Murray <a href="https://github.com/seanjmurray">Github</a></p>
+        <p> &copy; 2021 Sean Murray <a href="https://github.com/seanjmurray">Github</a></p>
       </footer>
     )
   }
+  export default Footer

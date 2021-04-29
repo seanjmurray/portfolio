@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact(){
+const Contact = () => {
     return (
       <section id="contact" className="card">
         <h1>Get ahold of me</h1>
@@ -12,3 +12,4 @@ export default function Contact(){
       </section>
     )
   }
+  export default Contact

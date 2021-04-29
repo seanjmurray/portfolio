@@ -1,7 +1,7 @@
 import React from 'react';
 import Skill from './skill';
 
-export default function Skills(){
+const Skills = () => {
     return(
       <section id="skills">
         <h1>What I bring to the table</h1>
@@ -20,3 +20,4 @@ export default function Skills(){
       </section>
     )
   }
+export default Skills
