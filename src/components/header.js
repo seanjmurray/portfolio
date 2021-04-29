@@ -1,6 +1,6 @@
 import React from 'react';
 
- export default function Header(){
+const Header = () => {
     return(
       <header>
         <a href="#story">My Story</a>
@@ -10,3 +10,4 @@ import React from 'react';
       </header>
     )
   }
+export default Header

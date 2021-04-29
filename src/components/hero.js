@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default function Hero(){
+const Hero = () => {
     return (
       <section className="hero">
        
       </section>
     )
   }
+  export default Hero
+  

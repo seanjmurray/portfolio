@@ -2,7 +2,7 @@ import React from 'react';
 import Showcase from './showcase';
 import ProjectCard from './project-card';
 
-export default function Projects(){
+const Projects = () => {
     return(
       <section id="projects">
         <h1>Some of my work</h1>
@@ -12,6 +12,13 @@ export default function Projects(){
         src="images/react-blog.png"
         details="This is a MERN stack app I built. I wanted to build a tool I could use to improve my technical writing, and to learn React. This was the end product. Development is still ongoing as I learn more and improve my skills."
         repo="https://github.com/seanjmurray/react-blog"
+        />
+        <Showcase 
+        name="Chapp Client"
+        link="https://www.npmjs.com/package/chapp"
+        src="images/chapp.png"
+        details="This is a CL app, build using Socket.io and Tensorflow"
+        repo="https://github.com/bus-jam/chapp-client"
         />
         <Showcase
          name="Pitch Finder"
@@ -53,3 +60,4 @@ export default function Projects(){
       </section>
     )
   }
+export default Projects

@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function About(){
-    return(
+const About = () => {
+return(
       <section id="story" className="card">
         <h1>My Story</h1>
         <p className="col-9">I am motivated to solve problems and produce agile, responsive, and modern solutions. I draw experience from a  background in HAZMAT and antiterrorism, which has taught me to <b>think</b> and <b>solve problems</b> in an efficient and effective way. I have experience with: JavaScript, HTML5, CSS, Node.js, jQuery, MongoDB and SQL, and a few misc. libraries. Lastly I love to <b>learn</b> and <b>teach</b>.</p>
@@ -21,3 +21,5 @@ export default function About(){
       </section>
     )
   }
+
+export default About
