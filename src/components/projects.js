@@ -17,7 +17,7 @@ const Projects = () => {
         name="Chapp Client"
         link="https://www.npmjs.com/package/chapp"
         src="images/chapp.png"
-        details="This is a CL app, build using Socket.io and Tensorflow"
+        details="This is a CL app, build using Socket.io and Tensorflow. This was a collaborative project and our first time using JS outside of the browser. We used Tensorflow to moderate the messages sent, and stop toxic or harrassing messages. The server side code is also javascript and hosted on Heroku."
         repo="https://github.com/bus-jam/chapp-client"
         />
         <Showcase

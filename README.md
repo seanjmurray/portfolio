@@ -49,6 +49,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
  - 2020-07-01 V 0.4 Add mobile responsiveness to css.
  - 2020-07-29 V 0.5 Add Blog to project section.
  - 2021-04-28 V 0.6 Refactor functions to arrows
+ - 2021-04-29 V 0.6.1 Fix Chapp description
  
 ## Credits
 
