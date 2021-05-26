@@ -22,11 +22,11 @@ test('renders project', () => {
   const linkElement = getByText(/Salmon/i);
   expect(linkElement).toBeInTheDocument();
 });
-test('renders skills', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/Security/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('renders skills', () => {
+//   const { getByText } = render(<App />);
+//   const linkElement = getByText(/Security/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
 test('renders contact', () => {
   const { getByText } = render(<App />);
   const linkElement = getByText(/ahold/i);
