@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 const Resume = () => {
-    const [hidden, show] = useState([false,false,false])
+    // const [hidden, show] = useState([false,false,false])
 
     return (
         <section>

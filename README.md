@@ -52,6 +52,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
  - 2021-04-29 V 0.6.1 Fix Chapp description
  - 2021-05-26 V 0.7.0 Add professional experience section to page
  - 2021-05-26 V 0.7.1 Change tests due to a CI fail
+ - 2021-05-26 V 0.7.2 Comment out none functioning Var declarations
  
 ## Credits
 
