@@ -1,6 +1,6 @@
 # Welcome to my portfolio
 
-[![Version](https://img.shields.io/badge/version-0.5.0-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
+[![Version](https://img.shields.io/badge/version-0.7.1-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
 [![Build Status](https://travis-ci.com/seanjmurray/portfolio.svg?branch=master)](https://travis-ci.com/seanjmurray/portfolio)
 
 
@@ -45,11 +45,14 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 ## Changelog
- - 2020-07-01 V 0.3 deployed all components moved to App component for rendering.
- - 2020-07-01 V 0.4 Add mobile responsiveness to css.
- - 2020-07-29 V 0.5 Add Blog to project section.
+ - 2020-07-01 V 0.3 deployed all components moved to App component for rendering
+ - 2020-07-01 V 0.4 Add mobile responsiveness to css
+ - 2020-07-29 V 0.5 Add Blog to project section
  - 2021-04-28 V 0.6 Refactor functions to arrows
  - 2021-04-29 V 0.6.1 Fix Chapp description
+ - 2021-05-26 V 0.7.0 Add professional experience section to page
+ - 2021-05-26 V 0.7.1 Change tests due to a CI fail
+ - 2021-05-26 V 0.7.2 Comment out none functioning Var declarations
  
 ## Credits
 
