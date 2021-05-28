@@ -1,3 +1,10 @@
+/* LOADING */
+.loading {
+  background-color: #E44D26;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
 /* HERO */
 @media (min-width: 730px){
 .hero{
