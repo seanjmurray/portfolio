@@ -1,6 +1,6 @@
 # Welcome to my portfolio
 
-[![Version](https://img.shields.io/badge/version-0.7.1-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
+[![Version](https://img.shields.io/badge/version-0.7.3-brightgreen.svg)](https://github.com/seanjmurray/portfolio)
 [![Build Status](https://travis-ci.com/seanjmurray/portfolio.svg?branch=master)](https://travis-ci.com/seanjmurray/portfolio)
 
 
@@ -53,12 +53,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
  - 2021-05-26 V 0.7.0 Add professional experience section to page
  - 2021-05-26 V 0.7.1 Change tests due to a CI fail
  - 2021-05-26 V 0.7.2 Comment out none functioning Var declarations
+ - 2021-05-29 V 0.7.3 Add loading animation and lazy loading to components
  
 ## To Do
 
 - [ ] ThemeProvider
 - [ ] refactor
-- [ ] Loading component
+- [x] Loading component
 - [ ] Light and dark themes
 
 ### Coded and designed by Sean Murray

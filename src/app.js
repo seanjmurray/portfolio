@@ -16,8 +16,7 @@ const App = () =>  {
   useEffect (() => {
     setTimeout(() => {
       isLoading(false)
-    },1500)
-    
+    },1250) 
   },[])
   return(
     <Suspense fallback={<Loading />}>
