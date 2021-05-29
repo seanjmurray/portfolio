@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react'; 
+import React, { Suspense, lazy, useState, useEffect } from 'react'; 
 import Loading from './components/loading'
 // Lazy loading components 
 const Header = lazy(() => import('./components/header'))
@@ -12,8 +12,16 @@ const Footer = lazy(() => import('./components/footer'))
 
 
 const App = () =>  {
+  const [load, isLoading] = useState(false)
+  useEffect (() => {
+    setTimeout(isLoading(true),1500)
+    
+  },[])
   return(
-    <Suspense fallback={<Loading></Loading>}>
+    <Suspense fallback={<Loading />}>
+      {load ?
+      <Loading />
+    :
     <section>
       <Header />
       <Hero />
@@ -26,6 +34,7 @@ const App = () =>  {
     </main>
       <Footer />
     </section>
+}
     </Suspense>
     )
 }
