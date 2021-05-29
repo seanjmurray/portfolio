@@ -1,0 +1,2 @@
+(this["webpackJsonpsean-portfolio"]=this["webpackJsonpsean-portfolio"]||[]).push([[7],{10:function(e,t,a){"use strict";a.r(t);var r=a(0),n=a.n(r);t.default=function(){return n.a.createElement("header",null,n.a.createElement("a",{href:"#story"},"My Story"),n.a.createElement("a",{href:"#projects"},"Projects"),n.a.createElement("a",{href:"#skills"},"My Skills"),n.a.createElement("a",{href:"#contact"},"Contact"))}}}]);
+//# sourceMappingURL=7.e11829d3.chunk.js.map

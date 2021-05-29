@@ -1,0 +1,2 @@
+(this["webpackJsonpsean-portfolio"]=this["webpackJsonpsean-portfolio"]||[]).push([[8],{11:function(e,t,n){"use strict";n.r(t);var o=n(0),s=n.n(o);t.default=function(){return s.a.createElement("section",{className:"hero"})}}}]);
+//# sourceMappingURL=8.1c1c42cc.chunk.js.map

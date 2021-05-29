@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/hero.js"],"names":["Hero","className"],"mappings":"uHAAA,2BASiBA,UAPJ,WACT,OACE,6BAASC,UAAU","file":"static/js/8.1c1c42cc.chunk.js","sourcesContent":["import React from 'react';\n\nconst Hero = () => {\n    return (\n      <section className=\"hero\">\n       \n      </section>\n    )\n  }\n  export default Hero\n  "],"sourceRoot":""}

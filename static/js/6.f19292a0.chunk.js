@@ -1,0 +1,2 @@
+(this["webpackJsonpsean-portfolio"]=this["webpackJsonpsean-portfolio"]||[]).push([[6],{15:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n);t.default=function(){return r.a.createElement("footer",null,r.a.createElement("p",null," \xa9 2021 Sean Murray ",r.a.createElement("a",{href:"https://github.com/seanjmurray"},"Github")))}}}]);
+//# sourceMappingURL=6.f19292a0.chunk.js.map
