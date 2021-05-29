@@ -12,9 +12,11 @@ const Footer = lazy(() => import('./components/footer'))
 
 
 const App = () =>  {
-  const [load, isLoading] = useState(false)
+  const [load, isLoading] = useState(true)
   useEffect (() => {
-    setTimeout(isLoading(true),1500)
+    setTimeout(() => {
+      isLoading(false)
+    },1500)
     
   },[])
   return(
